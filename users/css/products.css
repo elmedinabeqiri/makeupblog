@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    color: black;
+    font-weight: lighter;
+}
+
+.content{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#img{
+    margin: 30px;
+}
+
+@media only screen and (max-width: 1024px){
+    .content{
+  
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: lighter;
+    }
+}
+
+
+
+
+
+
+
+
