@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+  }
+    
+  .title{
+    width: 100%;
+   text-align: center;
+   margin-top:15px;
+   color:rgba(182,134,142,0.979);
+   letter-spacing: .3em;
+   font-size:2.0vw;
+   font-weight: normal;
+   text-transform: uppercase;
+   
+}
+.main-container{
+    margin: 0 auto;
+    font-size: 1vmax;
+  
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.blog{
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    height:auto;
+    width: 570px;
+    background-color: white;
+}
+#title{
+    text-align: left;
+    height: 50px;
+    width: 550px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#title h1{
+    color: black;
+}
+#text{
+    text-align: left;
+    height: 165px;
+    width: 550px;
+    padding: 10px;
+}
+#text p{
+    color: black;
+    font-size: 18px;
+}
+#file{
+    margin-bottom: 30px;
+    padding: 10px;
+    height:10px;
+    width: 350px;
+}
+#image{
+    height: 300px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: 700;
+}
+
+#remove{
+    float: right;
+    color: black;
+    border-radius: 1px;
+    background-color: rgba(182,134,142,0.979);
+    width: 100px;
+    height:33px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#remove:hover{
+    background-color: #ecd5d9;
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .blog{
+        padding: 10px;
+        border: 1px solid rgb(202, 202, 202);
+        height:auto;
+        width: 400px;
+        background-color: white;
+    }
+    #title{
+        text-align: left;
+        height: 30px;
+        width: 380px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    #text{
+        text-align: left;
+        height: 130px;
+        width: 380px;
+        padding: 10px;
+    }
+    #text p{
+        color: black;
+        font-size: 13px;
+    }
+    #file{
+        margin-bottom: 30px;
+        padding: 10px;
+        height:10px;
+        width: 350px;
+    }
+    #image{
+        height: 250px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    label{
+        font-weight: 700;
+    }
+}
